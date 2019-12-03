@@ -4,7 +4,13 @@
     "part": "Backend API",
     "event": "제 2회 국민은행 소프트웨어 경진대회",
     "date": "2019.11",
-    "desc": ""
+    "desc": "",
+    "images": [
+      "dop/1.png",
+      "dop/2.png",
+      "dop/3.png",
+      "dop/4.png"
+    ]
   },
   {
     "title": "INSSA",
