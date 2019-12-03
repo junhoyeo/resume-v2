@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f5141e633857ca3818709e1e2124371",
+    "revision": "5aaddd82868bb031fb38fead55e34203",
     "url": "/resume/index.html"
   },
   {
-    "revision": "2ea35c2f79a48a71470e",
+    "revision": "f1b65db26da925d9e1f0",
     "url": "/resume/static/css/main.9469a07c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/js/2.6641fde4.chunk.js"
   },
   {
-    "revision": "2ea35c2f79a48a71470e",
-    "url": "/resume/static/js/main.32dd75d6.chunk.js"
+    "revision": "f1b65db26da925d9e1f0",
+    "url": "/resume/static/js/main.89ecc94f.chunk.js"
   },
   {
     "revision": "431263ebd9671701aa27",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4c63771ab0225f9fa7e224c8b2decd1e",
     "url": "/resume/static/media/1.4c63771a.png"
+  },
+  {
+    "revision": "798b0f7ed9e720a78f07c7fcf9ae3fb4",
+    "url": "/resume/static/media/1.798b0f7e.png"
   },
   {
     "revision": "7fc3c714d4e7571d65b9b9e4276366be",
@@ -80,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/2.d6fec510.png"
   },
   {
+    "revision": "f3092fdb53234bc68339d1caa1c38a6f",
+    "url": "/resume/static/media/2.f3092fdb.png"
+  },
+  {
     "revision": "669a22578b2a2ced6ce9b88e809780c5",
     "url": "/resume/static/media/3.669a2257.png"
   },
@@ -90,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "801ea7f1381910b8eb312467bbf938ec",
     "url": "/resume/static/media/3.801ea7f1.png"
+  },
+  {
+    "revision": "85ad3a36570cf3cd12251fd8f6b5dd96",
+    "url": "/resume/static/media/3.85ad3a36.png"
   },
   {
     "revision": "a12638aa4c37e70fae6ed2a9449817a2",
@@ -112,8 +124,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/resume/static/media/4.b87e6e4b.png"
   },
   {
-    "revision": "c52e84da5377291aa954b812d8c3d010",
-    "url": "/resume/static/media/fairy.c52e84da.png"
+    "revision": "f91c315434068425fe5ff852fa34bc71",
+    "url": "/resume/static/media/discord-emoji-gen.f91c3154.png"
+  },
+  {
+    "revision": "5ff5488a017a52cf9a8dcebfee5592df",
+    "url": "/resume/static/media/fairy.5ff5488a.png"
   },
   {
     "revision": "e89a995c468228e3ffcd17578f23bc5c",
