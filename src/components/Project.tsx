@@ -86,7 +86,7 @@ export default ({ project }: IProjectProps) => {
         if (images) {
           return (
             <Images>
-              {images.map(image => {
+              {images.map((image) => {
                 const Image = styled.img`
                   width: ${98 / images.length}%;
                   ${small && `

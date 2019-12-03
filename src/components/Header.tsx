@@ -42,14 +42,14 @@ const Desc = styled.p``;
 
 const contractData = [
   {
-    name: 'github',
-    icon: 'fa-github',
     href: 'https://github.com/junhoyeo',
+    icon: 'fa-github',
+    name: 'github',
   },
   {
-    name: 'facebook',
-    icon: 'fa-facebook',
     href: 'https://www.facebook.com/juno3704',
+    icon: 'fa-facebook',
+    name: 'facebook',
   },
 ];
 
@@ -92,7 +92,7 @@ const ContractList = ({ contracts }: IContractList) => {
       ))}
     </ListContainer>
   );
-}
+};
 
 export default () => (
   <Container>

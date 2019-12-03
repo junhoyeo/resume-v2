@@ -28,4 +28,4 @@ export default ({ children }: ILayoutProps) => {
       </Wrapper>
     </Container>
   );
-}
+};
