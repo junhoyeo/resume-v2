@@ -127,6 +127,18 @@
     ]
   },
   {
+    "title": "컴공과 빙고",
+    "part": "Web App",
+    "event": "개인 프로젝트",
+    "date": "2019.02",
+    "desc": "그 유명한 컴공과 빙고를 온라인으로 직접 해보고 공유해보세요.",
+    "images": [
+      "comgong-bingo/1.png",
+      "comgong-bingo/2.png",
+      "comgong-bingo/3.png"
+    ]
+  },
+  {
     "title": "BISS",
     "subtitle": "블록체인 기반 IOT 보안 솔루션",
     "part": "Backend API & Blockchain",
@@ -143,6 +155,16 @@
     "images": [
       "silvermealbot/1.png",
       "silvermealbot/2.png"
+    ]
+  },
+  {
+    "title": "디스코드 이모지 생성기",
+    "part": "Web App",
+    "event": "개인 프로젝트",
+    "date": "2018.02",
+    "desc": "입력받은 텍스트를 디스코드 이모지로 변환해 줍니다.",
+    "images": [
+      "discord-emoji-gen.png"
     ]
   }
 ]
