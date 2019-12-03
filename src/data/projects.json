@@ -78,7 +78,10 @@
     "part": "Backend API",
     "event": "Junction X Seoul: ZEPETO Render API Track",
     "date": "2019.05",
-    "desc": "ZEPETO Render API의 제페토 프로필을 이용해 글로벌 커뮤니케이션을 원하는 Z세대 사용자들에게 진입장벽이 낮고 재미있지만 기존 서비스보다 안전한 소셜 디스커버리 서비스를 만들었습니다. 저는 Flask로 서비스 백엔드 API 개발과 연동, Socket.io를 이용한 채팅 서버를 담당했습니다."
+    "desc": "ZEPETO Render API의 제페토 프로필을 이용해 글로벌 커뮤니케이션을 원하는 Z세대 사용자들에게 진입장벽이 낮고 재미있지만 기존 서비스보다 안전한 소셜 디스커버리 서비스를 만들었습니다. 저는 Flask로 서비스 백엔드 API 개발과 연동, Socket.io를 이용한 채팅 서버를 담당했습니다.",
+    "images": [
+      "fairy.png"
+    ]
   },
   {
     "title": "CUBE",

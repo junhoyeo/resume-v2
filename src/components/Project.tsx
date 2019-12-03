@@ -88,6 +88,7 @@ export default ({ project }: IProjectProps) => {
             <Images>
               {images.map((image) => {
                 const Image = styled.img`
+                  height: intrinsic;
                   width: ${98 / images.length}%;
                   ${small && `
                     width: 50%;
