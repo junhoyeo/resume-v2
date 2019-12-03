@@ -80,11 +80,12 @@ const ContractList = ({ contracts }: IContractList) => {
 
   return (
     <ListContainer>
-      {contracts.map((contract: IContract) => (
+      {contracts.map((contract: IContract, idx: number) => (
         <a
           href={contract.href}
           target="_blank"
           rel="noopener noreferrer"
+          key={`contract-${idx}`}
         >
           <Icon className={`fab ${contract.icon}`} />
         </a>

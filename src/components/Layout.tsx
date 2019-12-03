@@ -7,10 +7,10 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  padding: 2.5rem 5rem;
-  width: 100%;
+  padding: 2.5rem 0;
+  width: 70%;
 
-  @media (max-width: 500px) {
+  @media (max-width: 1000px) {
     padding: 2.5rem 0;
     width: 80%;
   }

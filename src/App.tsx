@@ -15,8 +15,8 @@ const App: React.FC = () => {
         title="프로젝트"
         desc=""
       >
-        {projectData.map(project => (
-          <Project project={project} />
+        {projectData.map((project, idx) => (
+          <Project project={project} key={`project-${idx}`} />
         ))}
       </Section>
       <Section

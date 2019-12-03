@@ -44,6 +44,14 @@ const Desc = styled.p`
   font-size: 1rem;
 `;
 
+const Images = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+`;
+
 interface IProject {
   title: string;
   subtitle?: string;
@@ -51,6 +59,8 @@ interface IProject {
   event: string;
   date: string;
   desc: string;
+  images?: string[];
+  small?: boolean;
 }
 
 interface IProjectProps {
@@ -58,7 +68,7 @@ interface IProjectProps {
 }
 
 export default ({ project }: IProjectProps) => {
-  const { title, subtitle, part, event, date, desc }: IProject = project;
+  const { title, subtitle, part, event, date, desc, images, small = false }: IProject = project;
 
   return (
     <Container>
@@ -72,6 +82,31 @@ export default ({ project }: IProjectProps) => {
         <Detail>{date}</Detail>
       </Info>
       <Desc>{desc}</Desc>
+      {(() => {
+        if (images) {
+          return (
+            <Images>
+              {images.map(image => {
+                const Image = styled.img`
+                  width: ${98 / images.length}%;
+                  ${small && `
+                    width: 50%;
+                    margin: auto;
+                  `}
+                `;
+
+                return (
+                  <Image
+                    alt={image}
+                    key={image}
+                    src={require(`../assets/${image}`)}
+                  />
+                );
+              })}
+            </Images>
+          );
+        }
+      })()}
     </Container>
   );
 };
