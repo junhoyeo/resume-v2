@@ -1,4 +1,11 @@
 @font-face {
+  font-family: '양진체';
+  src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'NanumBarunpen';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
   font-weight: normal;
@@ -14,4 +21,19 @@
 body {
   margin: 0;
   background-color: #343a40;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: '양진체';
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+img {
+  -webkit-user-drag: none;
 }

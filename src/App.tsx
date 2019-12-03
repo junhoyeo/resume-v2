@@ -1,13 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Layout from './components/Layout';
 import Header from './components/Header';
-
-const Layout = styled.div``;
 
 const App: React.FC = () => {
   return (
-    <Layout className="App">
+    <Layout>
       <Header />
     </Layout>
   );
