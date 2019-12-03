@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 `;
 
 interface ILayoutProps {
-  children?: React.ReactElement[] | React.ReactElement;
+  children?: React.ReactElement | React.ReactElement[];
 }
 
 export default ({ children }: ILayoutProps) => {
