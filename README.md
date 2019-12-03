@@ -1,7 +1,10 @@
-# 🙏 Resume
+# 🙏 Résumé [![Typed with TypeScript](https://badgen.net/badge/icon/Typed?icon=typescript&label&labelColor=555555&color=blue)](https://github.com/microsoft/TypeScript) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Code Style](https://badgen.net/badge/style/Airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript) [![Website](https://img.shields.io/website/https/junhoyeo.github.io/resume?down_color=red&down_message=dead&style=flat&up_color=brightgreen&up_message=ok)](https://junhoyeo.github.io/resume)
 제 개인 포트폴리오입니다!
 
 > 세상에 기여하는, 트렌디한 개발자를 꿈꿉니다.
+
+## 🚙 Visit
+[여기서 직접 확인해 보세요!](https://junhoyeo.github.io/resume)
 
 ## 🚀 Run
 ```bash
